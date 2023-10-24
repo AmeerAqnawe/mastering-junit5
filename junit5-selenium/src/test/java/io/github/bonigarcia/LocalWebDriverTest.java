@@ -34,10 +34,10 @@ public class LocalWebDriverTest {
         assertTrue(driver.getTitle().contains("Selenium WebDriver"));
     }
 
-    @Test
+    /*@Test
     public void testWithFirefox(FirefoxDriver driver) {
-        /*driver.get("http://www.seleniumhq.org/");
-        assertTrue(driver.getTitle().startsWith("Selenium"));*/
-    }
+        driver.get("http://www.seleniumhq.org/");
+        assertTrue(driver.getTitle().startsWith("Selenium"));
+    }*/
 
 }
