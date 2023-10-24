@@ -38,6 +38,7 @@ public class LocalWebDriverTest {
     public void testWithFirefox(FirefoxDriver driver) {
         driver.get("http://www.seleniumhq.org/");
         assertTrue(driver.getTitle().startsWith("Selenium"));
+
     }*/
 
 }
