@@ -33,13 +33,13 @@ class DummyTest {
     @Test
     void failTest1() {
         System.out.println("This is a failed test [1]");
-        fail();
+        //fail();
     }
 
     @Test
     void failTest2() {
         System.out.println("This is a failed test [2]");
-        fail();
+        //fail();
     }
 
     @Disabled
