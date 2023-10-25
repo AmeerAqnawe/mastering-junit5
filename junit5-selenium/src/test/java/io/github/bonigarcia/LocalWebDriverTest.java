@@ -39,6 +39,7 @@ public class LocalWebDriverTest {
         driver.get("http://www.seleniumhq.org/");
         assertTrue(driver.getTitle().startsWith("Selenium"));
 
+
     }*/
 
 }
